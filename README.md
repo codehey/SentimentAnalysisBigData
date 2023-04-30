@@ -14,7 +14,7 @@ MongoDB –
 •	mongo
 •	use sentimentdb;
 
-Kafka Setup
+Kafka Setup--
 scp -i admin-key-pair.pem "<Local Path>/kafka_2.13-3.4.0.tgz" hadoop@<Public DNS of Node>:/home/hadoop
 tar -xzf kafka_2.13-3.4.0.tgz
 cd kafka_2.13-3.4.0
